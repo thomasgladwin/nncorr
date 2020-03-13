@@ -5,7 +5,8 @@ This is a version of a non-linear correlation between variables X and Y that tes
 
 In Matlab-code:
 
-function [r, p] = nncorr(x, y)
+```
+function [r, p] = teg_nncorr(x, y)
 
 [x, si] = sort(x);
 y = y(si);
@@ -17,3 +18,4 @@ for index1 = 1:2:(length(x) - 1)
     y1_y2 = [y1_y2; y1 y2];
 end
 [r, p] = corr(y1_y2(:, 1), y1_y2(:, 2));
+```
