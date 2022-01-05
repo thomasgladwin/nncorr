@@ -1,7 +1,7 @@
 # nncorr
 Nonlinear neighbourhood correlation.
 
-Product of some idle musings about non-linear measures of association, not sure whether it's any use for anything: This is a version of a non-linear correlation between variables X and Y that tests the correlation between the Y-scores of pairs of points that are neighbours on the X-axes. This can, e.g., detect U-curves or sinusoidal patterns in scatterplots. The trade-off is that it's less powerful at detecting linear relationships than a standard Peason's correlation.
+Product of some idle musings about non-linear, very general measures of association, not sure whether it's any use for anything: This is a version of a non-linear correlation between variables X and Y that tests the correlation between the Y-scores of pairs of points that are neighbours on the X-axes. This can, e.g., detect U-curves or sinusoidal patterns in scatterplots. The trade-off is that it's less powerful at detecting linear relationships than a standard Peason's correlation.
 
 In Matlab-code:
 
