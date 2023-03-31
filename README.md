@@ -20,6 +20,4 @@ end
 [r, p] = corr(y1_y2(:, 1), y1_y2(:, 2));
 ```
 
-Please cite as: Thomas Edward Gladwin. (2020, March 13). thomasgladwin/nncorr: Initial release (Version v1). Zenodo. http://doi.org/10.5281/zenodo.3710404
-
 [![DOI](https://zenodo.org/badge/247157218.svg)](https://zenodo.org/badge/latestdoi/247157218)
